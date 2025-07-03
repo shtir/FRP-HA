@@ -3,7 +3,7 @@
   "version": "1.1.1",
   "slug": "frpc_client",
   "description": "Securely tunnel Home Assistant via FRP using YAML config",
-  "url": "https://github.com/shtir/frpc-HA",
+  "url": "https://github.com/shtir/FRP-HA",
   "startup": "services",
   "boot": "auto",
   "arch": ["amd64"],
