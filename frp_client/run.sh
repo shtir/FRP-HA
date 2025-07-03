@@ -9,11 +9,11 @@ common:
   token: ${TOKEN}
 
 proxies:
-  - name: homeassistant_web
+  homeassistant_web:
     type: tcp
-    localIP: 127.0.0.1
-    localPort: 8123
-    remotePort: ${REMOTE_PORT}
+    local_ip: 127.0.0.1
+    local_port: 8123
+    remote_port: ${REMOTE_PORT}
 EOF
 
 echo "[INFO] Starting frpc with YAML config..."
