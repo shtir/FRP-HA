@@ -1,0 +1,24 @@
+{
+  "name": "FRPC Client (YAML)",
+  "version": "1.1.1",
+  "slug": "frpc_client",
+  "description": "Securely tunnel Home Assistant via FRP using YAML config",
+  "url": "https://github.com/shtir/frpc-HA",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["amd64"],
+  "host_network": true,
+  "options": {
+    "server_addr": "example.com",
+    "server_port": 7000,
+    "token": "your-secret-token",
+    "remote_port": 88123
+  },
+  "schema": {
+    "server_addr": "str",
+    "server_port": "int",
+    "token": "str",
+    "remote_port": "int"
+  },
+  "logo": "logo.png"
+}
